@@ -1,0 +1,7 @@
+langchain
+langchain-community
+boto3
+anthropic
+openai
+pytest
+python-dotenv
