@@ -13,6 +13,7 @@ This changes the attack surface entirely.
 AgentRedTeam targets vulnerabilities defined in the OWASP LLM Top 10 with a specific focus on how those vulnerabilities behave and escalate in agentic pipelines built on frameworks like LangChain and hosted on cloud infrastructure like AWS Bedrock.
 
 Why This Matters for Governance
+
 This project is not just a security tool. It is a research instrument.
 Current AI governance frameworks, including the EU AI Act, the NIST AI Risk Management Framework, and OWASP's own guidance, were largely designed with static LLM deployments in mind. As agentic AI systems move into production across critical sectors, the governance gap widens.
 Systematic red teaming is one of the few empirical methods available to make that gap visible, nameable, and actionable for policymakers.
