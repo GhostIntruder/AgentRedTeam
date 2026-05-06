@@ -5,6 +5,7 @@ An Agentic AI Red Teaming Framework for OWASP LLM Top 10 Vulnerabilities
 
 
 Overview
+
 AgentRedTeam is an open-source red teaming framework designed to systematically surface security vulnerabilities in agentic AI systems: systems that take autonomous actions, chain tools, and operate with reduced human oversight.
 Most existing red teaming tools were built for static LLM deployments: a user sends a prompt, a model responds, done. Agentic systems are fundamentally different. They plan. They call external tools. They execute multi-step tasks. They sometimes act before a human can intervene.
 This changes the attack surface entirely.
