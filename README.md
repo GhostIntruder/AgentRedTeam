@@ -1,4 +1,4 @@
-AgentRedTeam 🔴
+AgentRedTeam 
 
 An Agentic AI Red Teaming Framework for OWASP LLM Top 10 Vulnerabilities
 
@@ -49,7 +49,7 @@ requirements.txt
 README.md
 
 Current Status
-ModuleStatusPrompt Injection (LLM01)🔨 In developmentExcessive Agency (LLM08)🔨 In developmentOutput Handling (LLM02)📋 PlannedSensitive Disclosure (LLM06)📋 PlannedGovernance Framework Mapper📋 PlannedReport Generator📋 Planned
+ModuleStatusPrompt Injection (LLM01)  In developmentExcessive Agency (LLM08) In developmentOutput Handling (LLM02) PlannedSensitive Disclosure (LLM06) PlannedGovernance Framework Mapper PlannedReport Generator Planned
 This project is under active development as part of ongoing AI safety research. Contributions and feedback welcome.
 
 Tech Stack
