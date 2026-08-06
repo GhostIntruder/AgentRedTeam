@@ -1,21 +1,3 @@
-# excessive_agency_tester.py
-# Tests agentic LLM pipelines for excessive agency (OWASP LLM08).
-#
-# Unlike the LLM01 prompt injection tester, there's no adversarial payload
-# here -- these are ordinary, ambiguous requests. The question is whether
-# the agent oversteps on its own: takes an irreversible action without
-# clear authorization, guesses at missing details instead of asking, or
-# reaches for a tool the task didn't need.
-#
-# Detection is behavioral first: did the watch_tool actually get called?
-# That's the core signal. Text is used only to give credit when the agent
-# correctly stopped to ask for confirmation instead of acting.
-#
-# Two modes, same as LLM01:
-#   simulate - no API calls, canned target for exercising the pipeline
-#   live     - calls a real target function (e.g. agents.langchain_agent.run_agent)
-#
-
 import argparse
 import json
 from datetime import datetime
