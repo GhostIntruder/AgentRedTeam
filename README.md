@@ -53,7 +53,7 @@ Current Status
 | Module | Status |
 | --- | --- |
 | Prompt Injection (LLM01) | Complete — live + simulate modes, 13 payloads across 7 attack categories, hybrid text/behavioral detection, pytest coverage |
-| Excessive Agency (LLM08) | In development |
+| Excessive Agency (LLM08) | Complete — live + simulate modes, 7 scenarios across 3 sub-patterns (excessive functionality/permissions/autonomy), behavioral detection with deferral credit, pytest coverage |
 | Output Handling (LLM02) | Planned |
 | Sensitive Disclosure (LLM06) | Planned |
 | Governance Framework Mapper | Planned |
