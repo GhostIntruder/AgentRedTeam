@@ -49,7 +49,16 @@ requirements.txt
 README.md
 
 Current Status
-ModuleStatusPrompt Injection (LLM01)  In developmentExcessive Agency (LLM08) In developmentOutput Handling (LLM02) PlannedSensitive Disclosure (LLM06) PlannedGovernance Framework Mapper PlannedReport Generator Planned
+
+| Module | Status |
+| --- | --- |
+| Prompt Injection (LLM01) | Complete — live + simulate modes, 13 payloads across 7 attack categories, hybrid text/behavioral detection, pytest coverage |
+| Excessive Agency (LLM08) | In development |
+| Output Handling (LLM02) | Planned |
+| Sensitive Disclosure (LLM06) | Planned |
+| Governance Framework Mapper | Planned |
+| Report Generator | Planned |
+
 This project is under active development as part of ongoing AI safety research. Contributions and feedback welcome.
 
 Tech Stack
