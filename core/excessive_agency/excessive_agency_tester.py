@@ -15,7 +15,6 @@
 #   simulate - no API calls, canned target for exercising the pipeline
 #   live     - calls a real target function (e.g. agents.langchain_agent.run_agent)
 #
-# Author: Omonivie Cynthia Jatto
 
 import argparse
 import json
